@@ -1,7 +1,6 @@
 # Calculadora Multifuncional
 
-Trabalho da disciplina de Tecnologia da Informação — fluxograma desenvolvido no **Flowgorithm** para uma calculadora com menu de múltiplas funções.
-
+Projeto desenvolvido em grupo para aplicar conceitos de lógica de programação na criação de uma calculadora seguindo um fluxograma
 ## Objetivo
 
 Desenvolver, em Flowgorithm, um fluxograma para uma Calculadora Multifuncional que apresente um menu principal com **11 opções** (10 funções de cálculo + a opção de encerrar o programa), permanecendo em execução — retornando sempre ao menu — até que o usuário escolha encerrar. O objetivo pedagógico é praticar estrutura de repetição (`While`), estruturas de decisão (`If`/`Else` encadeados) e entrada/saída de dados dentro do Flowgorithm.
