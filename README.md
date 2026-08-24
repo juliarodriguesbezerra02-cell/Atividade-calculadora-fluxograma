@@ -8,15 +8,10 @@ Desenvolver, em Flowgorithm, um fluxograma para uma Calculadora Multifuncional q
 
 ## Integrantes do grupo
 
-> ⚠️ **Preencher com os nomes (e RA, se exigido) dos integrantes do grupo antes de entregar.**
-
 - Julia Rodrigues Bezerra
 - Rafael Oliveira
 - Roberto Rosado
 ## Ferramenta utilizada
-
-- **[Flowgorithm](http://www.flowgorithm.org/)** — ferramenta gratuita de criação e execução de fluxogramas, usada para desenhar e simular o algoritmo.
-- Arquivo do fluxograma: [`CalculadoraMultifuncional.fprg`](./CalculadoraMultifuncional.fprg)
 
 ## Descrição das 10 funções de cálculo
 
@@ -60,18 +55,3 @@ Algumas operações (Divisão e Raiz Quadrada) possuem uma segunda camada de dec
 | **Atribuição (`Assign`)** | Cálculo do resultado de cada operação |
 | **Funções internas do Flowgorithm** | `Sqrt()` (raiz quadrada) e a constante `pi` (área do círculo) |
 
-## Instruções para execução
-
-1. Baixe e instale o [Flowgorithm](http://www.flowgorithm.org/) (gratuito, disponível para Windows, macOS e Linux).
-2. Abra o arquivo `CalculadoraMultifuncional.fprg` no Flowgorithm (`File > Open`).
-3. Clique em **Execute** (ícone de "play") para rodar o fluxograma.
-4. Digite o número da operação desejada (1 a 10) quando solicitado e, em seguida, informe os valores pedidos para aquela operação.
-5. O resultado será exibido na tela e o menu voltará a aparecer automaticamente.
-6. Para encerrar o programa, digite **11** quando o menu for exibido.
-
-## Como este repositório foi organizado (entrega via GitHub)
-
-- `CalculadoraMultifuncional.fprg` — arquivo do fluxograma criado no Flowgorithm.
-- `README.md` — este documento, com a descrição completa do projeto.
-
-Para a entrega, crie um repositório individual no GitHub, adicione estes dois arquivos e realize o commit correspondente antes da data de entrega (25/08).
