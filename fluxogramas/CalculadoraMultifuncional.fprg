@@ -4,15 +4,14 @@
         <attribute name="name" value="Calculadora Multifuncional"/>
         <attribute name="authors" value="Roberto"/>
         <attribute name="about" value="Trabalho de Tecnologia da Informacao - Calculadora Multifuncional com menu de 11 opcoes"/>
-        <attribute name="saved" value="2026-08-24 11:06:15 "/>
+        <attribute name="saved" value="2026-08-25 06:05:16 "/>
         <attribute name="created" value=""/>
         <attribute name="edited" value=""/>
-        <attribute name="edited" value="VVNVQVJJTztERVNLVE9QLUdTQU5GS1M7MjAyNi0wOC0yNDsiMTE6MDY6MTUgIjsxOzI5NjE="/>
+        <attribute name="edited" value="VXNlcjtERVNLVE9QLTBMQUg4SjY7MjAyNi0wOC0yNTsiMDY6MDU6MTYgIjs0OzI3NTI="/>
     </attributes>
     <function name="Main" type="None" variable="">
         <parameters/>
         <body>
-            <comment text="Calculadora Multifuncional - menu principal em loop at&#233; a op&#231;&#227;o 11 (Encerrar)."/>
             <declare name="opcao" type="Integer" array="False" size=""/>
             <declare name="n1, n2, n3, resultado" type="Real" array="False" size=""/>
             <declare name="base, expoente" type="Real" array="False" size=""/>
@@ -48,7 +47,7 @@
                     <else>
                         <if expression="opcao=2">
                             <then>
-                                <output expression="&quot;--- Op&#231;&#227;o 2: Subtra&#231;&#227;o ---&quot;" newline="True"/>
+                                <output expression="&quot;Op&#231;&#227;o 2: Subtra&#231;&#227;o&quot;" newline="True"/>
                                 <output expression="&quot;Digite o primeiro n&#250;mero:&quot;" newline="True"/>
                                 <input variable="n1"/>
                                 <output expression="&quot;Digite o segundo n&#250;mero:&quot;" newline="True"/>
@@ -59,7 +58,7 @@
                             <else>
                                 <if expression="opcao=3">
                                     <then>
-                                        <output expression="&quot;--- Op&#231;&#227;o 3: Multiplica&#231;&#227;o ---&quot;" newline="True"/>
+                                        <output expression="&quot;Op&#231;&#227;o 3: Multiplica&#231;&#227;o&quot;" newline="True"/>
                                         <output expression="&quot;Digite o primeiro n&#250;mero:&quot;" newline="True"/>
                                         <input variable="n1"/>
                                         <output expression="&quot;Digite o segundo n&#250;mero:&quot;" newline="True"/>
@@ -70,7 +69,7 @@
                                     <else>
                                         <if expression="opcao=4">
                                             <then>
-                                                <output expression="&quot;--- Op&#231;&#227;o 4: Divis&#227;o ---&quot;" newline="True"/>
+                                                <output expression="&quot;Op&#231;&#227;o 4: Divis&#227;o&quot;" newline="True"/>
                                                 <output expression="&quot;Digite o numerador:&quot;" newline="True"/>
                                                 <input variable="n1"/>
                                                 <output expression="&quot;Digite o denominador:&quot;" newline="True"/>
@@ -88,7 +87,7 @@
                                             <else>
                                                 <if expression="opcao=5">
                                                     <then>
-                                                        <output expression="&quot;--- Op&#231;&#227;o 5: Potencia&#231;&#227;o ---&quot;" newline="True"/>
+                                                        <output expression="&quot;Op&#231;&#227;o 5: Potencia&#231;&#227;o&quot;" newline="True"/>
                                                         <output expression="&quot;Digite a base:&quot;" newline="True"/>
                                                         <input variable="base"/>
                                                         <output expression="&quot;Digite o expoente:&quot;" newline="True"/>
@@ -99,7 +98,7 @@
                                                     <else>
                                                         <if expression="opcao=6">
                                                             <then>
-                                                                <output expression="&quot;--- Op&#231;&#227;o 6: Raiz Quadrada ---&quot;" newline="True"/>
+                                                                <output expression="&quot;Op&#231;&#227;o 6: Raiz Quadrada&quot;" newline="True"/>
                                                                 <output expression="&quot;Digite o n&#250;mero:&quot;" newline="True"/>
                                                                 <input variable="n1"/>
                                                                 <if expression="n1&lt;0">
@@ -115,7 +114,7 @@
                                                             <else>
                                                                 <if expression="opcao=7">
                                                                     <then>
-                                                                        <output expression="&quot;--- Op&#231;&#227;o 7: &#193;rea do C&#237;rculo ---&quot;" newline="True"/>
+                                                                        <output expression="&quot;Op&#231;&#227;o 7: &#193;rea do C&#237;rculo&quot;" newline="True"/>
                                                                         <output expression="&quot;Digite o raio:&quot;" newline="True"/>
                                                                         <input variable="raio"/>
                                                                         <assign variable="resultado" expression="pi*(raio^2)"/>
@@ -124,7 +123,7 @@
                                                                     <else>
                                                                         <if expression="opcao=8">
                                                                             <then>
-                                                                                <output expression="&quot;--- Op&#231;&#227;o 8: &#193;rea do Ret&#226;ngulo ---&quot;" newline="True"/>
+                                                                                <output expression="&quot;Op&#231;&#227;o 8: &#193;rea do Ret&#226;ngulo&quot;" newline="True"/>
                                                                                 <output expression="&quot;Digite a base do ret&#226;ngulo:&quot;" newline="True"/>
                                                                                 <input variable="baseRet"/>
                                                                                 <output expression="&quot;Digite a altura do ret&#226;ngulo:&quot;" newline="True"/>
@@ -135,7 +134,7 @@
                                                                             <else>
                                                                                 <if expression="opcao=9">
                                                                                     <then>
-                                                                                        <output expression="&quot;--- Op&#231;&#227;o 9: Convers&#227;o Celsius para Fahrenheit ---&quot;" newline="True"/>
+                                                                                        <output expression="&quot;Op&#231;&#227;o 9: Convers&#227;o Celsius para Fahrenheit&quot;" newline="True"/>
                                                                                         <output expression="&quot;Digite a temperatura em graus Celsius:&quot;" newline="True"/>
                                                                                         <input variable="celsius"/>
                                                                                         <assign variable="resultado" expression="(celsius*9/5)+32"/>
@@ -144,7 +143,7 @@
                                                                                     <else>
                                                                                         <if expression="opcao=10">
                                                                                             <then>
-                                                                                                <output expression="&quot;--- Op&#231;&#227;o 10: M&#233;dia Aritm&#233;tica ---&quot;" newline="True"/>
+                                                                                                <output expression="&quot;Op&#231;&#227;o 10: M&#233;dia Aritm&#233;tica&quot;" newline="True"/>
                                                                                                 <output expression="&quot;Digite o primeiro n&#250;mero:&quot;" newline="True"/>
                                                                                                 <input variable="n1"/>
                                                                                                 <output expression="&quot;Digite o segundo n&#250;mero:&quot;" newline="True"/>
@@ -183,7 +182,6 @@
                         </if>
                     </else>
                 </if>
-                <while expression="opcao&lt;&gt;11"/>
             </while>
             <output expression="&quot;Programa encerrado.&quot;" newline="True"/>
         </body>
