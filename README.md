@@ -9,6 +9,7 @@ Desenvolver, em Flowgorithm, um fluxograma para uma Calculadora Multifuncional q
 - Julia Rodrigues Bezerra
 - Rafael Oliveira
 - Roberto Rosado
+- Nicole moreira
 ## Ferramenta utilizada
 
 ## Descrição das 10 funções de cálculo
